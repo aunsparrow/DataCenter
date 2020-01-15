@@ -9,13 +9,20 @@ The created solution requires;
 How to create project abp (.Net Core)
 *************************************
 Use CMD or PW shell or...
+
 1.abp new <Projectname>
+  
 OR***********************************
+
 1.Clone Project from https://github.com/aunsparrow/DataCenter.git
+
 ********************************************************************************************************************************
 settting project (windown)
+  
 1.open src int project
+  
 2.find file appsettings.json 
+
 3.setting (database yours local)
 
 {
@@ -24,5 +31,9 @@ settting project (windown)
   }
 }
 
+
 4.Right click Project.web >> Choose  Set as  StartUp Ptoject
+
 5.Package Manager Console >> Default project select .EntityFrameworkCore.DbMigrations >> run the <<Update-Database>> command:
+
+cr.https://docs.abp.io/en/abp/latest/Getting-Started-AspNetCore-MVC-Template
